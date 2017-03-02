@@ -1,0 +1,2150 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.tab_container {
+    display: table;
+    background-color: rgba(245, 245, 245, 0.7) !important;
+    width: 100%;
+}
+
+.centerblock {
+    width: 1100px;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 6%;
+}
+
+.searchblog {
+    width: 700px;
+    margin: 0 0 0 37px;
+    height: auto;
+    float: left;
+}
+
+.email-sub {
+    height: 25px;
+    border: none;
+    width: 190px;
+    float: left;
+    padding-left: 30px;
+    background: url(../images/envelopecopy.png) no-repeat #fff !important;
+    background-position: 0px center !important;
+}
+
+.inspirationtab {
+    width: 98%;
+    margin-top: 2%;
+    margin: 0 auto;
+    background: #fff;
+    margin-bottom: 25px;
+}
+
+.inspirationtab_inner {
+    width: 33.3%;
+    text-align: center;
+    float: left;
+    padding: 2px;
+    font-size: 18px;
+}
+
+.getinspire_sub {
+    text-align: center;
+}
+
+    .getinspire_sub.hover {
+        background-color: rgba(156, 156, 156, 0.18);
+    }
+
+.inspiretext {
+    font-weight: bold;
+}
+
+.inspirelink_text {
+    font-size: 14px;
+    color: black;
+}
+
+.getinspire_sub > p {
+    margin-top: 31px;
+}
+
+.a-submit {
+    width: 50px;
+    float: right;
+    background: orange;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.email-sub-div {
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    width: 250px;
+    float: right;
+    /* top: 20px; */
+    margin-top: 15px;
+    margin-right: 95px;
+}
+
+.newsletterdiv_text_p:first-child {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    /* padding: 20px; */
+    font-size: 23px;
+    margin-left: 175px;
+    margin-top: 25px;
+}
+
+.newsletterdiv_text_p:nth-child(2) {
+    color: orange;
+    font-weight: bold;
+}
+
+.CombineandSave {
+    width: auto;
+    margin: 0 0 0 0;
+    height: auto;
+    float: right;
+    position: relative;
+}
+
+    .CombineandSave img {
+        width: 312px;
+    }
+
+.combinesavediv img {
+    width: 90px;
+    padding-left: 10px;
+}
+
+.flightserch .flightblog, .hotelblog, .packageblog, .activitiesblog, .flightandhotelblog {
+    /*width:577px;*/
+    width: 100%;
+    /*background-color: rgba(102, 102, 102, 0.8);*/
+    height: auto !important;
+    padding: 20px 0 40px 0;
+    /*overflow:hidden ;*/
+    margin: 0 0 10px 0 !important;
+    min-height: 250px;
+}
+
+.activity_from {
+    background: url(../images/VectorSmartObject_6.png) no-repeat #fff !important;
+    padding-left: 30px !important;
+    background-position: 5px center !important;
+    width: 266px !important;
+}
+
+.activity_to {
+    background: url(../images/VectorSmartObjectcop_2.png) no-repeat #fff !important;
+    padding-left: 30px !important;
+    background-position: 5px center !important;
+    width: 266px !important;
+}
+
+.dateDepart, .dateReturn, .travel_date, .check_in, .check_out, .departure_date {
+    background: url(../images/VectorSmartObjectcop_1.png) no-repeat #fff !important;
+    padding-left: 30px !important;
+    background-position: 5px center !important;
+}
+
+.form {
+    margin-left: 40px;
+}
+
+.formtravel ul {
+    list-style-type: none;
+    display: inline;
+    /*background: url(../images/VectorSmartObjectcop_7.png) no-repeat #fff !important;*/
+}
+
+    .formtravel ul li {
+        list-style-type: none;
+        display: inline;
+        float: left;
+        /*width: 200px;*/
+    }
+
+        .formtravel ul li label {
+            color: #fff;
+            font-size: 16px;
+        }
+
+/*input.textfield, select{
+	background:none;
+	border-bottom:1px solid #fff;
+	width:195px;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	color:#fff;
+	font-size:14px;
+	padding-left:5px;
+     line-height:27px; 
+}*/
+
+
+
+.calender, .ui-datepicker-trigger {
+    text-align: right;
+    margin-left: -20px;
+    cursor: pointer;
+    vertical-align: top !important;
+}
+
+
+
+::-moz-placeholder {
+    opacity: 1 !important;
+    color: #fff !important;
+}
+
+input:-moz-placeholder {
+    color: #000 !important;
+}
+
+input::-webkit-input-placeholder {
+    color: #000 !important;
+}
+
+button.SearchHome {
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 30px;
+    background: orange;
+    float: left;
+    margin: 0;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Latobold';
+}
+
+.flighsearch {
+    margin-right: 3px;
+    vertical-align: middle;
+    text-align: center;
+    width: 142px;
+    height: 142px;
+    float: left;
+}
+
+    .flighsearch a.searchf {
+        font-size: 19px;
+        color: #666666;
+        font-family: 'latobold';
+        font-weight: normal;
+        text-transform: uppercase;
+        width: 142px;
+        height: 142px;
+        display: inline-block;
+        text-align: center;
+        background: url(../images/flightsearch-icon.png) no-repeat center 25px #fff;
+        line-height: 185px;
+    }
+
+        .flighsearch a.searchf:hover {
+            color: #fff;
+            background: url(../images/flightsearch-iconh.png) no-repeat center 25px rgba(102, 102, 102, 0.8);
+            line-height: 185px;
+        }
+
+        .flighsearch a.searchf.active {
+            color: #fff;
+            background: url(../images/flightsearch-iconh.png) no-repeat center 25px rgba(102, 102, 102, 0.8);
+            line-height: 185px;
+        }
+
+.hotelsearch {
+    margin-right: 3px;
+    vertical-align: middle;
+    text-align: center;
+    width: 142px;
+    height: 142px;
+    float: left;
+}
+
+    .hotelsearch a.searchh {
+        font-size: 19px;
+        color: #666666;
+        font-family: 'latobold';
+        font-weight: normal;
+        text-transform: uppercase;
+        width: 142px;
+        height: 142px;
+        display: inline-block;
+        text-align: center;
+        background: url(../images/hotelsearchn-icon.png) no-repeat center 25px #fff;
+        line-height: 185px;
+    }
+
+        .hotelsearch a.searchh:hover {
+            color: #fff;
+            background: url(../images/hotelsearchn-iconh.png) no-repeat center 25px rgba(102, 102, 102, 0.8);
+            line-height: 185px;
+        }
+
+        .hotelsearch a.searchh.active {
+            color: #fff;
+            background: url(../images/hotelsearchn-iconh.png) no-repeat center 25px rgba(102, 102, 102, 0.8);
+            line-height: 185px;
+        }
+
+.packagessearch {
+    margin-right: 3px;
+    vertical-align: middle;
+    text-align: center;
+    width: 142px;
+    height: 142px;
+    float: left;
+}
+
+    .packagessearch a.searchp {
+        font-size: 19px;
+        color: #666666;
+        font-family: 'latobold';
+        font-weight: normal;
+        text-transform: uppercase;
+        width: 142px;
+        height: 142px;
+        display: inline-block;
+        text-align: center;
+        background: url(../images/packages-icon.png) no-repeat center 25px #fff;
+        line-height: 185px;
+    }
+
+        .packagessearch a.searchp:hover {
+            color: #fff;
+            background: url(../images/packages-iconh.png) no-repeat center 25px rgba(102, 102, 102, 0.8);
+            line-height: 185px;
+        }
+
+        .packagessearch a.searchp.active {
+            color: #fff;
+            background: url(../images/packages-iconh.png) no-repeat center 25px rgba(102, 102, 102, 0.8);
+            line-height: 185px;
+        }
+
+/*added by suresh for flight + hotel on 19-02-2016*/
+.flightandhotelsearch {
+    margin-right: 3px;
+    vertical-align: middle;
+    text-align: center;
+    width: 142px;
+    height: 142px;
+    float: left;
+}
+
+    .flightandhotelsearch a.searchfh {
+        font-size: 19px;
+        color: #666666;
+        font-family: 'latobold';
+        font-weight: normal;
+        text-transform: uppercase;
+        width: 142px;
+        height: 142px;
+        display: inline-block;
+        text-align: center;
+        background: url(../images/FlightHotel-Icon.png) no-repeat center 25px #fff;
+        line-height: 185px;
+    }
+
+        .flightandhotelsearch a.searchfh:hover {
+            color: #fff;
+            background: url(../images/FlightHotel-Icon.png) no-repeat center 25px rgba(102, 102, 102, 0.8);
+            line-height: 185px;
+        }
+
+        .flightandhotelsearch a.searchfh.active {
+            color: #fff;
+            background: url(../images/FlightHotel-Icon.png) no-repeat center 25px rgba(102, 102, 102, 0.8);
+            line-height: 185px;
+        }
+
+/*end*/
+.activitiessearch {
+    margin-right: 3px;
+    vertical-align: middle;
+    text-align: center;
+    width: 142px;
+    height: 142px;
+    float: left;
+}
+
+    .activitiessearch a.search {
+        font-size: 19px;
+        color: #666666;
+        font-family: 'latobold';
+        font-weight: normal;
+        text-transform: uppercase;
+        width: 142px;
+        height: 142px;
+        display: inline-block;
+        text-align: center;
+        background: url(../images/activities-icon.png) no-repeat center 25px #fff;
+        line-height: 185px;
+    }
+
+        .activitiessearch a.search:hover {
+            color: #fff;
+            background: url(../images/activities-iconh.png) no-repeat center 25px rgba(102, 102, 102, 0.8);
+            line-height: 185px;
+        }
+
+        .activitiessearch a.search.active {
+            color: #fff;
+            background: url(../images/activities-iconh.png) no-repeat center 25px rgba(102, 102, 102, 0.8);
+            line-height: 185px;
+        }
+
+.tabs {
+    display: table;
+}
+
+.searchdestination {
+    background: none;
+    border-bottom: 1px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 14px;
+    width: 90%;
+    line-height: 27px;
+    font-family: 'Lato-Regular';
+}
+
+
+.formtravel1 ul {
+    list-style-type: none;
+    display: inline;
+}
+
+    .formtravel1 ul li {
+        list-style-type: none;
+        display: inline;
+        float: left;
+        padding: 0 12px 2px 2px;
+        width: 100% !important;
+    }
+
+        .formtravel1 ul li div.ffTextBoxWrapper {
+            width: 100% !important;
+        }
+
+    .formtravel1 ul label {
+        color: #fff;
+        font-size: 16px;
+    }
+
+.CheckIn {
+    background: none;
+    border-bottom: 1px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 14px;
+    width: 92%;
+    float: left;
+    line-height: 27px;
+    font-family: 'Lato-Regular';
+}
+
+.CheckIn1 {
+    background: none;
+    border-bottom: 1px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 14px;
+    width: 92%;
+    float: left;
+    line-height: 27px;
+    font-family: 'Lato-Regular';
+}
+
+.formtravel ul li:nth-child(6) .ffSelectWrapper {
+    /* margin-left: -6px !important;*/
+}
+
+.formtravel2 ul li .ffTextBoxWrapper {
+    width: 31% !important;
+}
+
+.formtravel2 ul li img {
+    vertical-align: 3px !important;
+    padding-right: 12px !important;
+    margin-left: -31px;
+}
+
+.hotelblog .formtravel1 ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft input.searchdestination {
+    width: 90%;
+    padding-left: 30px;
+    line-height: 17px;
+    background: url(../images/VectorSmartObject_6.png) no-repeat #fff !important;
+    background-position: 5px center !important;
+}
+
+.hotelblog .formtravel2 {
+    display: inline-block;
+    width: 92%;
+}
+
+    .hotelblog .formtravel2 ul li {
+        list-style-type: none;
+        display: inline;
+        float: left;
+        padding: 5px 0;
+        width: 100% !important;
+    }
+
+        .hotelblog .formtravel2 ul li .ffTextBoxWrapper {
+            width: 31% !important;
+            margin-right: 9px;
+        }
+
+            .hotelblog .formtravel2 ul li .ffTextBoxWrapper .ffTextBoxRight, .ffPasswordRight {
+                background-position: right -256px;
+                padding-right: 0;
+            }
+
+        .hotelblog .formtravel2 ul li:nth-child(1) .ffSelectWrapper .ffSelect a span {
+            /*width: 33% !important;*/
+            padding-bottom: 3px;
+            color: #000;
+        }
+
+        .hotelblog .formtravel2 ul li.ffTextBoxLeft img {
+            vertical-align: 3px !important;
+            padding-right: 12px !important;
+            margin-left: -31px;
+        }
+
+        /* .hotelblog img.ui-datepicker-trigger
+        {
+           margin-left: -22px !important;
+           
+        }*/
+        .hotelblog .formtravel2 ul li:nth-child(2) .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft img {
+            margin-left: -20px;
+            border: 1px solid #000;
+        }
+
+        .hotelblog .formtravel2 ul li img.ui-datepicker-trigger {
+            display: none !important;
+        }
+
+/*added by suresh on 23-02-2016*/
+.flightandhotelblog .formtravel1 ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft input.searchdestination {
+    width: 90%;
+    padding-left: 2px;
+    line-height: 17px;
+}
+
+.flightandhotelblog .formtravel2 {
+    display: inline-block;
+    width: 92%;
+}
+
+    .flightandhotelblog .formtravel2 ul li {
+        list-style-type: none;
+        display: inline;
+        float: left;
+        padding: 5px 0;
+        width: 100% !important;
+    }
+
+        .flightandhotelblog .formtravel2 ul li .ffTextBoxWrapper {
+            width: 31% !important;
+            margin-right: 9px;
+        }
+
+            .flightandhotelblog .formtravel2 ul li .ffTextBoxWrapper .ffTextBoxRight, .ffPasswordRight {
+                background-position: right -256px;
+                padding-right: 0;
+            }
+
+        .flightandhotelblog .formtravel2 ul li:nth-child(1) .ffSelectWrapper .ffSelect a span {
+            /*width: 33% !important;*/
+            padding-bottom: 3px;
+        }
+
+        .flightandhotelblog .formtravel2 ul li.ffTextBoxLeft img {
+            vertical-align: 3px !important;
+            padding-right: 12px !important;
+            margin-left: -31px;
+        }
+
+        /* .hotelblog img.ui-datepicker-trigger
+        {
+           margin-left: -22px !important;
+           
+        }*/
+        .flightandhotelblog .formtravel2 ul li:nth-child(2) .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft img {
+            margin-left: -20px;
+            border: 1px solid #000;
+        }
+
+        .flightandhotelblog .formtravel2 ul li img.ui-datepicker-trigger {
+            display: none !important;
+        }
+
+        .flightandhotelblog .formtravel2 ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft input.CheckIn {
+            background: url(../images/calenderFlight.png) no-repeat right center;
+            /*line-height:26px;
+	padding-bottom:5px;*/
+            margin-left: 1px;
+            line-height: 15px;
+            width: 145px;
+        }
+
+.flightandhotelblog .formtravel3 ul li .ffSelectWrapper .ffSelect > a {
+    padding-bottom: 5px;
+    width: 85px;
+    background-position: 98% -131px;
+}
+
+.flightandhotelblog .formtravel2 ul li .ffSelectWrapper .ffSelect > a {
+    background-position: 98% -133px;
+    width: 139px !important;
+}
+
+    .flightandhotelblog .formtravel2 ul li .ffSelectWrapper .ffSelect > a > span {
+        height: 22px;
+        line-height: 15px;
+    }
+
+.flightandhotelblog .formtravel2 ul li .ffSelectWrapper {
+    width: 30% !important;
+}
+
+    .flightandhotelblog .formtravel2 ul li .ffSelectWrapper .ffSelect .ffSelectMenuWrapper {
+        left: 0;
+        top: 15px !important;
+    }
+
+.flightandhotelblog .formtravel3 ul li .ffSelectWrapper .ffSelect .ffSelectMenuWrapper {
+    left: 0;
+    top: 21px !important;
+    position: absolute !important;
+}
+
+.flightandhotelblog .formtravel3 ul li {
+    padding: 5px 12px 10px 0;
+}
+
+.flightandhotelblog .formtravel2 ul li .ffSelectWrapper .missingfield {
+    height: 23px;
+    margin-bottom: -2px;
+    vertical-align: top;
+}
+
+
+
+/*end*/
+
+.formtravel2 ul li:nth-child(1) .ffSelectWrapper .ffSelect a span {
+    width: 92% !important;
+    margin-bottom: 1px !important;
+}
+
+.formtravel2 ul li:nth-child(1) .ffSelectWrapper {
+    width: 29% !important;
+}
+
+.hotelblog .formtravel2 ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft input.CheckIn {
+    background: url(../images/calenderFlight.png) no-repeat right center;
+    /*line-height:26px;
+	padding-bottom:5px;*/
+    margin-left: 1px;
+    line-height: 15px;
+    width: 145px;
+}
+
+.formtravel2 ul {
+    list-style-type: none;
+    display: inline;
+}
+
+    .formtravel2 ul li {
+        list-style-type: none;
+        display: inline;
+        float: left;
+        padding: 5px 12px 2px 2px;
+        width: 100% !important;
+    }
+
+.formtravel3 ul {
+    list-style-type: none;
+    display: inline;
+}
+
+    .formtravel3 ul li {
+        list-style-type: none;
+        display: inline;
+        float: left;
+        padding: 5px 12px 2px 14px;
+    }
+
+.hotelblog .formtravel3 ul li .ffSelectWrapper .ffSelect > a {
+    padding-bottom: 5px;
+    width: 85px;
+    background-position: 98% -131px;
+}
+
+.searchroomhotel {
+    color: #000;
+    font-size: 14px;
+    display: table;
+    font-family: 'Lato-Regular';
+}
+
+.formtravel3 ul li label {
+    color: #000;
+    font-size: 12px;
+    display: table;
+    font-family: 'Lato-Regular';
+    margin: 10px 0 0 0;
+}
+
+.formtravel3 ul.childrensearchroomblock li label {
+    color: #000;
+    font-size: 12px;
+    display: table;
+    font-family: 'Lato-Regular';
+    margin: 7px 0 0 0;
+}
+
+.formtravel3 ul li .ffSelectWrapper {
+    width: 100px !important;
+}
+
+    .formtravel3 ul li .ffSelectWrapper .ffSelect a span {
+        /*background: url(../images/VectorSmartObjectcop_24.png) no-repeat #fff !important;*/
+        width: 68% !important;
+        padding-left: 30px !important;
+        color: #000;
+        background-position: 5px center!important;
+        /*font-size: 12px;*/
+    }
+
+.searchroom {
+    height: auto;
+    /*  max-height: 275px;
+    min-height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;*/
+    padding-left: 5px;
+}
+
+.searchroomblock {
+    float: left;
+    width: 155px;
+    margin-left: 10%;
+}
+
+.childrensearchroomblock {
+    float: left;
+    width: 155px;
+    margin-top: 20px;
+}
+
+.formtravel4 ul {
+    list-style-type: none;
+    display: inline;
+}
+
+    .formtravel4 ul li {
+        list-style-type: none;
+        display: inline;
+        float: left;
+        padding: 0 12px 2px 2px;
+        width: 100% !important;
+    }
+
+.formtravel ul li.adultactive {
+    position: relative;
+    bottom: 1px;
+}
+
+.formtravel ul li img {
+    vertical-align: 2px !important;
+}
+
+.packageblog .formtravel1 {
+    width: 92%;
+    display: table;
+}
+
+    .packageblog .formtravel1 ul li .ffSelectWrapper {
+        width: 98%;
+    }
+
+        .packageblog .formtravel1 ul li .ffSelectWrapper .ffSelect > a > {
+            padding-bottom: 5px;
+        }
+
+            .packageblog .formtravel1 ul li .ffSelectWrapper .ffSelect > a > span {
+                padding-left: 12px;
+                width: 98%;
+            }
+
+    .packageblog .formtravel1 ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft input.searchdestination {
+        width: 98.8%;
+        height: 30px !important;
+        padding-left: 30px;
+        background: url(../images/VectorSmartObject_6.png) no-repeat #fff !important;
+        background-position: 5px center !important;
+    }
+
+    .packageblog .formtravel1 ul li .ffTextBoxWrapper .ffTextBoxLeft, .ffPasswordLeft {
+        padding: 0 !important;
+    }
+
+.packageblog .formtravel2 ul li img {
+    display: none !important;
+}
+
+.packageblog .formtravel2 ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft input.CheckIn {
+    background: url(../images/calenderFlight.png) no-repeat right center;
+    /*line-height:26px;*/
+    padding-bottom: 4px;
+    height: 26px;
+    width: 143px;
+}
+
+.packageblog .formtravel1 ul li .ffSelectWrapper .ffSelect .ffSelectMenuWrapper {
+    top: 20px !important;
+    width: 100% !important;
+    left: 0 !important;
+}
+
+.packageblog .formtravel1 ul li .ffSelectWrapper .ffSelect a.ffSelectButton {
+    height: 30px !important;
+    width: 99%;
+    background-position: 98% -131px;
+}
+
+.activitiesblog .formtravel {
+    width: 100%;
+}
+
+    .activitiesblog .formtravel ul li {
+        padding: 4px 6% 2px 2px;
+    }
+        /*.activitiesblog .formtravel ul li:nth-child(even) {
+	padding-right: 0 !important;
+	}*/
+        .activitiesblog .formtravel ul li:nth-child(3) {
+            /* padding: 5px 6% 2px 2px;*/
+        }
+
+        .activitiesblog .formtravel ul li:nth-child(4) {
+            /* padding: 5px 6% 2px 2px;*/
+        }
+
+.flightblog .formtravel ul li .ffSelectWrapper {
+    /*margin:0;*/
+}
+
+.flightblog .formtravel ul li:nth-child(7) {
+    /*padding: 2px 40px 2px 2px;*/
+}
+
+.flightblog .formtravel ul li:nth-child(5) .ffSelectWrapper .ffSelect > a > span {
+    background: url(../images/VectorSmartObjectcop_24.png) no-repeat #fff !important;
+    background-position: 5px center !important;
+    width: 100px;
+}
+
+.flightblog .formtravel ul li:nth-child(7) .ffSelectWrapper .ffSelect > a {
+    width: 79px;
+}
+
+    .flightblog .formtravel ul li:nth-child(7) .ffSelectWrapper .ffSelect > a > span {
+        height: 30px;
+        line-height: 27px;
+        background: url(../images/Layer38.png) no-repeat #fff !important;
+        background-position: 5px center !important;
+        width: 140px;
+    }
+
+.flightblog .formtravel ul li {
+    /*padding: 5px 40px 2px 2px;*/
+    /*padding: 0 40px 2px 0;*/
+    /*margin-left: 30px;*/
+    /*margin-bottom:14px;*/
+}
+
+    .flightblog .formtravel ul li .ffSelectWrapper .ffSelect > a > span {
+        height: 30px;
+        line-height: 27px;
+        background: url(../images/VectorSmartObject_8.png) no-repeat #fff !important;
+        background-position: 5px center !important;
+        width: 100px;
+    }
+
+.ffSelectMenuMid ul li {
+    margin-left: 0px !important;
+}
+
+.hotelblog .formtravel2 ul li .ffSelectWrapper .ffSelect > a {
+    background-position: 98% -133px;
+    width: 139px !important;
+}
+
+    .hotelblog .formtravel2 ul li .ffSelectWrapper .ffSelect > a > span {
+        height: 22px;
+        line-height: 15px;
+    }
+
+.hotelblog .formtravel2 ul li .ffSelectWrapper {
+    width: 30% !important;
+}
+
+    .hotelblog .formtravel2 ul li .ffSelectWrapper .ffSelect .ffSelectMenuWrapper {
+        left: 0;
+        top: 15px !important;
+    }
+
+.hotelblog .formtravel3 ul li .ffSelectWrapper .ffSelect .ffSelectMenuWrapper {
+    left: 0;
+    top: 21px !important;
+    position: absolute !important;
+}
+
+.ffSelectMenuWrapper .ffSelectMenuMidBG li SPAN {
+    font-size: 12px !important;
+}
+
+.flightblog .formtravel ul li:nth-child(4) {
+    /*	padding:10px 40px 2px 3px;
+	  margin-left: 1px;*/
+}
+
+.flightblog .formtravel ul li:nth-child(6) {
+    /*padding:10px 40px 2px 0;*/
+    /*margin-left: -3px;*/
+}
+
+.flightblog .formtravel ul li.activity_adultLi {
+    margin-left: 16px;
+    margin-top: 5px;
+}
+
+    .flightblog .formtravel ul li.activity_adultLi .ffSelectWrapper {
+        width: 171px;
+    }
+
+        .flightblog .formtravel ul li.activity_adultLi .ffSelectWrapper .ffSelect .ffSelectMenuWrapper {
+            left: 0;
+        }
+
+.flightblog .formtravel ul li img.ui-datepicker-trigger {
+    display: none !important;
+}
+/*added by suresh*/
+.flightandhotelblog .formtravel ul li img.ui-datepicker-trigger {
+    display: none !important;
+}
+
+.flightblog .formtravel ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft input.hasDatepicker {
+    background: url(../images/VectorSmartObjectcop_1.png) no-repeat right center;
+    /*line-height:26px;*/
+    padding-bottom: 0px;
+    color: #fff;
+}
+/*added by suresh*/
+.flightandhotelblog .formtravel ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft input.hasDatepicker {
+    background: url(../images/calenderFlight.png) no-repeat right center;
+    /*line-height:26px;*/
+    padding-bottom: 0px;
+    color: #fff;
+}
+
+.packageblog .formtravel2 ul li .ffTextBoxWrapper .ffTextBoxRight, .ffPasswordRight {
+    padding-right: 0 !important;
+}
+
+.packageblog .formtravel2 ul li .ffTextBoxWrapper .ffTextBoxLeft, .ffPasswordLeft {
+    padding: 0 !important;
+}
+
+.ffSelectMenuMidBG {
+    z-index: 9999 !important;
+}
+
+.ffSelectWrapper active .ffSelectMenuMidBG .ffSelectMenuMid {
+    /*overflow:auto;*/
+    overflow-x: hidden;
+    /*overflow-y:scroll;*/
+}
+
+.ffSelectMenuMidBG .ffSelectMenuMid {
+    /*overflow:auto !important;*/
+    overflow-x: hidden !important;
+    /*overflow-y:scroll !important;*/
+}
+/*.ffSelectWrapper .ffSelectMenuWrapper
+{
+    z-index:9999 !important;
+    max-height:109px !important;
+    overflow:scroll;
+    overflow-x:hidden;
+    overflow-y:scroll;
+  
+
+}*/
+
+.ffSelectButton {
+    height: 30px !important;
+    font-weight: normal !important;
+}
+
+.ffSelectMenuWrapper {
+    left: 7px;
+}
+
+
+.packageRoomFormat .PackageRoomBolg {
+    width: 125px;
+}
+
+.packageRoomFormat .searchroomblock {
+    margin-left: 2%;
+}
+
+.ui-autocomplete-loading1 {
+    background: url('../images/homeloader.gif') no-repeat right center #828382 !important;
+}
+
+/*.ffSelectMenuMid ul li.selected, .ffSelectMenuMid ul li:hover
+{
+    background-color:#ccc;
+	width:100%;
+}*/
+.flightblog .formtravel ul li.sltSearchFlightClassLi {
+    /*padding:8px 40px 2px 2px;
+	padding:8px 40px 2px 2px;*/
+    margin-left: 0;
+    width: 183px;
+    margin-top: 5px;
+}
+
+    .flightblog .formtravel ul li.sltSearchFlightClassLi .ffSelectWrapper {
+        width: 171px;
+    }
+
+        .flightblog .formtravel ul li.sltSearchFlightClassLi .ffSelectWrapper .ffSelect .ffSelectMenuWrapper {
+            left: 0;
+        }
+
+.flightblog .formtravel ul li.sltSearchFlightChildLi {
+    /*padding:8px 40px 2px 2px;*/
+    margin-left: 0;
+    margin-top: 2px;
+}
+
+    .flightblog .formtravel ul li.sltSearchFlightChildLi .ffSelectWrapper {
+        width: 171px;
+    }
+
+        .flightblog .formtravel ul li.sltSearchFlightChildLi .ffSelectWrapper .ffSelect .ffSelectMenuWrapper {
+            left: 0;
+            width: 195px;
+            top: 16px !important;
+        }
+
+.flightblog .formtravel ul li.sltSearchFlightClassLi .ffSelectWrapper .ffSelect .ffSelectMenuWrapper, .flightblog .formtravel ul li.activity_adultLi .ffSelectWrapper .ffSelect .ffSelectMenuWrapper {
+    width: 195px;
+    top: 16px !important;
+}
+
+
+.flightblog .formtravel ul li.activity_adultLi {
+    /* padding:8px 40px 2px 2px;*/
+}
+
+.packageblog .formtravel2 ul li .ffSelectWrapper .ffSelect a span {
+    /* padding-bottom: 1px*/
+    margin-bottom: 0;
+    line-height: 19px !important;
+}
+
+.packageblog .formtravel2 ul li .ffSelectWrapper .ffSelect a.ffSelectButton {
+    height: 22px !important;
+    width: 143px;
+}
+
+.packageblog .formtravel2 ul li .ffSelectWrapper .ffSelect .ffSelectMenuWrapper {
+    top: 20px !important;
+    left: 0 !important;
+}
+
+.packageblog .formtravel3 ul li .ffSelectWrapper .ffSelect a.ffSelectButton {
+    height: 23px !important;
+    width: 85px;
+}
+
+.packageblog .formtravel3 ul li .ffSelectWrapper .ffSelect .ffSelectMenuWrapper {
+    top: 19px !important;
+    left: 0px !important;
+}
+
+.packageRoomFormat ul li {
+    padding: 5px 12px 10px 3px;
+}
+
+.packageblog .formtravel2 ul li .ffSelectWrapper {
+    width: 154px !important;
+}
+
+.activitiesblog .formtravel ul li .ffSelectWrapper {
+    padding-top: 3px;
+}
+
+.activitiesblog .formtravel1 ul li .ffTextBoxWrapper .ffTextBoxLeft, .ffPasswordLeft {
+    padding: 0 !important;
+}
+
+.activitiesblog .formtravel1 ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft input.searchdestination {
+    padding-left: 30px;
+    height: 30px !important;
+    width: 81%;
+    background: url(../images/VectorSmartObject_6.png) no-repeat #fff !important;
+    background-position: 5px center !important;
+}
+
+.activitiesblog .formtravel ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft {
+    padding: 0 !important;
+}
+
+.activitiesblog .formtravel ul li .ffSelectWrapper .ffSelect .ffSelect > a {
+    background-position: right -129px !important;
+}
+
+.activitiesblog .formtravel ul li .ffSelectWrapper .ffSelect a.ffSelectButton {
+    height: 23px !important;
+}
+
+.activitiesblog .formtravel ul li .ffSelectWrapper .ffSelect .ffSelectMenuWrapper {
+    top: 19px !important;
+    left: 0;
+    width: 195px;
+}
+
+.ui-autocomplete-category, .ui-autocomplete-category :hover {
+    list-style-image: none !important;
+    background: #fff !important;
+    border: 0 !important;
+    font-weight: bold !important;
+    cursor: default !important;
+}
+
+.childBedFont {
+    font-size: 12px !important;
+}
+
+.activitiesblog .formtravel ul li img {
+    display: none !important;
+}
+
+.activitiesblog .formtravel ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft input.travel_date {
+    background: url(../images/calenderFlight.png) no-repeat right center;
+    /*line-height:26px;*/
+    padding-bottom: 4px;
+    color: #fff;
+}
+
+.hotelblog .formtravel3 ul li {
+    padding: 5px 12px 10px 0;
+}
+
+button.btnsearchFlt, button.btnsearchHtl, button.btnsearchAct, button.btnsearchPkg {
+    margin-top: 0px;
+    /*border-radius: 10px;*/
+    margin-left: 227px;
+}
+
+
+.flightblog .formtravel ul li.flightHideLiOnewayChd {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.flightblog .formtravel ul li.flightHideLiOnewayAdl {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.flightblog .formtravel ul li .missingfield {
+    border: 1px solid #ff6e6e !important;
+    width: 195px;
+    height: 30px;
+}
+
+.hotelblog .formtravel2 ul li .ffSelectWrapper .missingfield {
+    height: 23px;
+    margin-bottom: -2px;
+    vertical-align: top;
+}
+
+.activitiesblog .formtravel ul li .ffSelectWrapper .missingfield {
+    border: 1px solid #ff6e6e !important;
+    width: 195px;
+}
+
+/* IE10+ specific styles go here */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .flightblog .formtravel ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft input {
+        width: 195px;
+        color: #fff;
+    }
+
+    .activitiesblog .formtravel ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft input {
+        width: 195px !important;
+        color: #fff;
+    }
+
+    .hotelblog .formtravel1 ul li .fftextboxwrapper .fftextboxright .fftextboxleft input.searchdestination {
+        width: 93% !important;
+    }
+
+    .flightblog .formtravel ul li.sltSearchFlightClassLi {
+        margin-top: 4px;
+    }
+
+    .flightblog .formtravel ul li.activity_adultLi {
+        margin-top: 4px;
+    }
+
+    .flightblog .formtravel ul li.sltSearchFlightChildLi {
+        margin-top: 3px;
+    }
+
+    .flightblog .formtravel ul li.flightHideLiOnewayAdl {
+        margin-top: 3px;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* Safari only override */
+
+    ::i-block-chrome, .flightblog .formtravel ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft input {
+        width: 195px;
+    }
+
+    ::i-block-chrome, .activitiesblog .formtravel ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft input {
+        width: 195px;
+    }
+
+    ::i-block-chrome, .packageblog .formtravel2 ul li .ffselectwrapper .ffselect a.ffselectbutton {
+        height: 12px;
+    }
+
+    ::i-block-chrome, .packageblog .formtravel2 ul li .ffselectwrapper {
+        vertical-align: top;
+        padding-top: 4px;
+    }
+
+    ::i-block-chrome, .hotelblog .formtravel2 ul li .ffselectwrapper {
+        vertical-align: top;
+        padding-top: 4px;
+    }
+
+    ::i-block-chrome, .flightblog .formtravel ul li.sltsearchflightclassli {
+        margin-top: 4px;
+    }
+
+    ::i-block-chrome, .flightblog .formtravel ul li.activity_adultLi {
+        margin-top: 4px;
+    }
+
+    ::i-block-chrome, .flightblog .formtravel ul li.sltSearchFlightChildLi {
+        margin-top: 3px;
+    }
+
+    ::i-block-chrome, .flightblog .formtravel ul li.flightHideLiOnewayAdl {
+        margin-top: 3px;
+    }
+
+    ::i-block-chrome, .packageblog .formtravel2 ul li .ffselectwrapper .ffselect a span {
+        line-height: 13px !important;
+    }
+}
+
+@-moz-document url-prefix() {
+    .flightblog .formtravel ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft input;
+
+{
+    width: 195px;
+}
+
+.activitiesblog .formtravel ul li .ffTextBoxWrapper .ffTextBoxRight .ffTextBoxLeft input {
+    width: 195px;
+}
+
+.flightblog .formtravel ul li.activity_adultLi {
+    margin-top: 4px;
+}
+
+.flightblog .formtravel ul li.sltSearchFlightChildLi {
+    margin-top: 3px;
+}
+
+.flightblog .formtravel ul li.sltSearchFlightClassLi {
+    margin-top: 4px;
+}
+
+.flightblog .formtravel ul li.flightHideLiOnewayAdl {
+    margin-top: 3px;
+}
+
+}
+/*-----------balaji-------------*/
+.formtravel * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.formtravel {
+    display: table;
+    width: 100%;
+}
+
+    .formtravel > ul {
+        display: table;
+        width: 100%;
+    }
+
+        .formtravel > ul > li {
+            width: 23%;
+            display: inline-block;
+            padding: 0 !important;
+            padding-right: 3% !important;
+            margin-bottom: 15px;
+        }
+
+            .formtravel > ul > li:first-child, .formtravel > ul > li:nth-child(2) {
+                width: 46%;
+                padding: 0;
+                padding-right: 4% !important;
+            }
+
+            .formtravel > ul > li .ffTextBoxWrapper {
+                width: 100% !important;
+            }
+
+                .formtravel > ul > li .ffTextBoxWrapper > div, .formtravel > ul > li .ffTextBoxWrapper > div > div, .formtravel > ul > li .ffTextBoxWrapper > div > div > input {
+                    padding: 0;
+                    width: 100% !important;
+                }
+
+            .formtravel > ul > li .ffSelectWrapper .ffSelectButton {
+                width: 100% !important;
+                display: block;
+                padding-right: 22px !important;
+                background: #ffffff url(../images/Rectangle4.png) no-repeat !important;
+                background-position: center right !important;
+            }
+
+                .formtravel > ul > li .ffSelectWrapper .ffSelectButton > span {
+                    width: 100% !important;
+                    display: block;
+                    margin: 0 !important;
+                }
+
+            .formtravel > ul > li.sevc-cl {
+                width: 100%;
+                padding: 0;
+            }
+
+.sevc-cl .srvc-mn {
+    width: 47%;
+    padding-right: 3% !important;
+}
+
+.ffSelectMenuWrapper {
+    width: 100%;
+    left: 0 !important;
+    top: 25px !important;
+}
+
+.ag-heading {
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.ag-content {
+    display: table;
+    width: 100%;
+}
+
+    .ag-content > div {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding: 30px;
+        display: flex;
+        border-right: 1px solid #ccc;
+    }
+
+        .ag-content > div:last-child {
+            border-right: 0px solid #ccc;
+        }
+
+.ag-heading > div {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 10px 5px;
+}
+
+.ag-content > div .getinspire_sub {
+    width: 100%;
+}
+
+.nbs-flexisel-ul {
+    display: table !important;
+    width: 100% !important;
+    margin-bottom: 30px;
+}
+
+    .nbs-flexisel-ul > li {
+        width: 32.3%;
+        margin: 0px 0px !important;
+    }
+
+        .nbs-flexisel-ul > li:first-child, .nbs-flexisel-ul > li:nth-child(2) {
+            padding-right: 1.5%;
+        }
+
+        .nbs-flexisel-ul > li > .cell {
+            width: 100%;
+        }
+
+        .nbs-flexisel-ul > li:last-child {
+            width: 32.4%;
+        }
+
+#container {
+    background: #f0f0f0;
+}
+
+.hd-part-sec {
+}
+
+    .hd-part-sec > ul {
+        display: table;
+        width: auto;
+        height: 75px;
+    }
+
+        .hd-part-sec > ul > li {
+            display: inline-block;
+            float: left;
+            height: 100%;
+            border-right: 1px solid orange;
+        }
+
+            .hd-part-sec > ul > li a {
+                color: orange;
+                width: 100% !important;
+                display: block;
+            }
+
+            .hd-part-sec > ul > li:last-child {
+                border-right: 0px solid orange;
+            }
+
+#welcometext {
+    border-left: 0px solid orange !important;
+}
+
+.hd-part-sec > ul > li .divrewards {
+    border-right: 0px solid orange !important;
+    border-bottom: 0px solid orange !important;
+    margin-top: 19px;
+}
+
+.hd-part-sec > ul > li .divtravelparteners {
+    border-bottom: 0px solid orange !important;
+    margin-top: 19px;
+}
+
+.hd-part-sec > ul > li .login-hd-sec {
+    display: table;
+    height: auto !important;
+    margin-top: 12px;
+    padding: 10px 30px;
+}
+
+    .hd-part-sec > ul > li .login-hd-sec > img {
+        float: left;
+        margin-top: 5px;
+    }
+
+    .hd-part-sec > ul > li .login-hd-sec > .log-signout {
+        float: left;
+        display: table;
+    }
+
+.hd-div-p > img, .hd-div-p > a > img {
+    margin-right: 10px;
+}
+
+.hd-part-sec > ul > li > div {
+    padding: 10px 30px !important;
+}
+
+.htl-li .formtravel1 > ul > li:first-child {
+    width: 48% !important;
+    padding: 0 !important;
+    padding-right: 4% !important;
+}
+
+.htl-li .formtravel1 > ul > li {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 23% !important;
+    display: inline-block;
+    padding: 0 !important;
+    padding-right: 3% !important;
+    margin-bottom: 15px;
+}
+
+    .htl-li .formtravel1 > ul > li:last-child {
+        width: 100%;
+    }
+
+    .htl-li .formtravel1 > ul > li .ffTextBoxWrapper > div, .htl-li .formtravel1 > ul > li .ffTextBoxWrapper > div > div, .htl-li .formtravel1 > ul > li .ffTextBoxWrapper > div > div > input {
+        width: 100% !important;
+    }
+
+        .htl-li .formtravel1 > ul > li .ffTextBoxWrapper > div > div > img.ui-datepicker-trigger {
+            display: none !important;
+        }
+
+.htl-li .formtravel1 > ul {
+    display: table;
+    width: 100%;
+}
+
+    .htl-li .formtravel1 > ul > li .ffSelectWrapper .ffSelectButton {
+        width: 100% !important;
+        display: block;
+        padding-right: 22px !important;
+        background: #ffffff url(../images/Rectangle4.png) no-repeat !important;
+        background-position: center right !important;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+        .htl-li .formtravel1 > ul > li .ffSelectWrapper .ffSelectButton > span {
+            width: 100% !important;
+            display: block;
+            margin: 0 !important;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -o-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+
+.activity-ul > ul {
+    display: table;
+    width: 100%;
+}
+
+    .activity-ul > ul > li {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+        .activity-ul > ul > li:nth-child(2) {
+            width: 23% !important;
+            display: inline-block;
+            padding: 0 !important;
+            padding-right: 3% !important;
+            margin-bottom: 15px;
+        }
+
+        .activity-ul > ul > li:first-child, .activity-ul > ul > li.act-cur {
+            width: 48% !important;
+            padding: 0 !important;
+            padding-right: 4% !important;
+        }
+
+        .activity-ul > ul > li.act-cur {
+            width: 35% !important;
+        }
+
+.act-cur .ffSelectWrapper .ffSelect > a > span {
+    background: #ffffff url(../images/currency-2.png) no-repeat !important;
+    background-position: 5px center !important;
+}
+
+.hoteladultimg .ffSelectWrapper .ffSelect > a > span {
+    background: #ffffff url(../images/VectorSmartObjectcop_24.png) no-repeat !important;
+    background-position: 5px center !important;
+}
+
+.hotelcurrimg .ffSelectWrapper .ffSelect > a > span {
+    background: #ffffff url(../images/currency-2.png) no-repeat !important;
+    background-position: 5px center !important;
+}
+
+.hotelroomimg .ffSelectWrapper .ffSelect > a > span {
+    background: #ffffff url(../images/VectorSmartObjectroom_3.png) no-repeat !important;
+    background-position: 5px center !important;
+}
+
+.rooms .ffSelectWrapper .ffSelect > a > span {
+    background: #ffffff url(../images/VectorSmartObjectroom_3.png) no-repeat !important;
+    background-position: 5px center !important;
+}
+
+.hotelchildimg .ffSelectWrapper .ffSelect > a > span {
+    background: #ffffff url(../images/VectorSmartObject_8.png) no-repeat !important;
+    background-position: 5px center !important;
+}
+
+.nightsimg .ffSelectWrapper .ffSelect > a > span {
+    background: #ffffff url(../images/VectorSmartObjectcop_1.png) no-repeat !important;
+    background-position: 5px center !important;
+}
+
+.activity-ul img.ui-datepicker-trigger, .packages-div img.ui-datepicker-trigger {
+    display: none !important;
+}
+
+.activity-ul > ul > li .ffTextBoxWrapper > div, .activity-ul > ul > li .ffTextBoxWrapper > div > div, .activity-ul > ul > li .ffTextBoxWrapper > div > div > input {
+    width: 100% !important;
+}
+
+.activity-ul > ul > li .ffSelectWrapper .ffSelectButton {
+    width: 100% !important;
+    display: block;
+    padding-right: 22px !important;
+    background: #ffffff url(../images/Rectangle4.png) no-repeat !important;
+    background-position: center right !important;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+    .activity-ul > ul > li .ffSelectWrapper .ffSelectButton > span {
+        width: 100% !important;
+        display: block;
+        margin: 0 !important;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+.packages-div > ul > li {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: inline-block;
+    width: 25% !important;
+    display: inline-block;
+    padding: 0 !important;
+    padding-right: 3% !important;
+    margin-bottom: 15px;
+}
+
+    .packages-div > ul > li.nationality-li, .packages-div > ul > li.destination-li {
+        width: 50% !important;
+        padding: 0 !important;
+        padding-right: 4% !important;
+    }
+
+    .packages-div > ul > li .ffTextBoxWrapper > div, .packages-div > ul > li .ffTextBoxWrapper > div > div, .packages-div > ul > li .ffTextBoxWrapper > div > div > input {
+        width: 100% !important;
+    }
+
+    .packages-div > ul > li .ffSelectWrapper .ffSelectButton {
+        width: 100% !important;
+        display: block;
+        padding-right: 22px !important;
+        background: #ffffff url(../images/Rectangle4.png) no-repeat !important;
+        background-position: center right !important;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+        .packages-div > ul > li .ffSelectWrapper .ffSelectButton > span {
+            width: 100% !important;
+            display: block;
+            margin: 0 !important;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -o-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+
+.searchroomblock.PackageRoomBolg {
+}
+
+.currency-li .ffSelectWrapper .ffSelect > a > span {
+    background: #fff url(../images/currency-2.png) no-repeat !important;
+    background-position: 5px center !important;
+}
+/*-----------footer----------*/
+.main_footer {
+    width: 100%;
+    height: auto;
+    height: 150px;
+    background: url(../images/photonickwestn139cop.png) no-repeat top;
+}
+
+.footer_top > div {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.footer {
+    width: 100%;
+    margin: 10px 0px;
+    display: inline-block;
+}
+    .footer > div {
+        padding: 0 10px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+    }
+.footer_top {
+    width: 25%;
+    height: auto;
+    border-right: 2px solid #fff;
+    float: left;
+}
+
+.foot_top_left {
+    width: 45%;
+    display: inline-block;
+    padding: 47px 0px;
+}
+
+.foot_top_right {
+    width: 45%;
+    float: right;
+    padding-left: 10px;
+    padding: 50px 00px 30px 0px;
+}
+
+    .foot_top_right > p {
+        font-size: 12px;
+    }
+
+.footer_mid {
+    width: 60%;
+    /*width: 61%;*/
+    height: auto;
+    float: left;
+}
+
+    .footer_mid > ul {
+        list-style: none;
+        margin: 43px 0px;
+        display: table;
+        width: 100%;
+        height: 60px;
+    }
+
+        .footer_mid > ul > li {
+            float: left;
+            margin: 0% 1%;
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+                /*margin: 0% 1% 3px 18px;*/
+        }
+            .footer_mid > ul > li a {
+                display: block;
+                height: 100%;
+                vertical-align: middle;
+            }
+            .footer_mid > ul > li a img{
+                vertical-align: middle;
+            }
+
+.footer_bottom {
+    width: 15%;
+    /*width: 13%;*/
+    border-left: 2px solid #fff;
+    float: left;
+}
+
+.footer_bot_sub {
+    padding: 20px 0px;
+    margin: 0% 15%;
+}
+
+    .footer_bot_sub > p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .footer_bot_sub > a {
+        margin: 0px 24px;
+    }
+/*-----------footer----------*/
+
+/*----------package------------*/
+.package-ch-sec {
+    width: 100% !important;
+    display: table !important;
+}
+
+    .package-ch-sec * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    .package-ch-sec > li {
+        display: inline-block;
+        display: block;
+        float: left;
+        padding: 0 !important;
+    }
+
+        .package-ch-sec > li:first-child {
+            width: 42%;
+        }
+
+            .package-ch-sec > li:first-child > div {
+                width: 38% !important;
+                float: left;
+                margin-right: 2% !important;
+            }
+
+                .package-ch-sec > li:first-child > div > label, .package-ch-sec > li:nth-child(2) > div > label {
+                    margin-top: 0;
+                }
+
+                .package-ch-sec > li:first-child > div:first-child {
+                    width: 18% !important;
+                }
+
+                .package-ch-sec > li:first-child > div .pkg-m-p {
+                    margin-top: 25px;
+                }
+
+        .package-ch-sec > li:nth-child(2) {
+            width: 58%;
+        }
+
+            .package-ch-sec > li:nth-child(2) > div {
+                width: 23%;
+                float: left;
+                margin-right: 2% !important;
+            }
+
+                .package-ch-sec > li:nth-child(2) > div > .ffSelectWrapper {
+                    max-width: 90px !important;
+                }
+
+                    .package-ch-sec > li:first-child > div > .ffSelectWrapper > div, .package-ch-sec > li:nth-child(2) > div > .ffSelectWrapper > div {
+                        width: 100% !important;
+                    }
+
+                        .package-ch-sec > li:first-child > div > .ffSelectWrapper > div > a, .package-ch-sec > li:nth-child(2) > div > .ffSelectWrapper > div > a {
+                            margin: 0 !important;
+                            width: 100% !important;
+                            background: #ffffff url(../images/Rectangle4.png) no-repeat !important;
+                            background-position: center right !important;
+                        }
+
+                            .package-ch-sec > li:first-child > div > .ffSelectWrapper > div > a > span, .package-ch-sec > li:nth-child(2) > div > .ffSelectWrapper > div > a > span {
+                                width: 100% !important;
+                            }
+/*----------package------------*/
+
+.travellohindiv {
+}
+
+    .travellohindiv ul li {
+        display: inline-block !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+        text-align: center;
+        width: 50%;
+        float: left;
+        cursor: pointer;
+        box-sizing: border-box;
+        height: 52px;
+    }
+
+        .travellohindiv ul li a {
+            color: orange !important;
+            font-size: 20px !important;
+            text-decoration: none;
+        }
+
+#trvelloginforgotpwd {
+    color: orange !important;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 14px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/*.travellohindiv ul #logindiv {
+    border-left: 1px solid orange;
+    border-top: 1px solid orange;
+    border-right: 1px solid orange;
+}*/
+
+/*.travellohindiv ul #signupdiv {
+    border-bottom: 1px solid orange;
+}*/
+
+.logindivactive {
+    border-left: 1px solid orange;
+    border-top: 1px solid orange;
+    border-right: 1px solid orange;
+}
+
+.logindivdeactive {
+    border-bottom: 1px solid orange;
+}
+
+.classactivelogin {
+    border-left: 1px solid orange;
+    border-top: 1px solid orange;
+    border-right: 1px solid orange;
+    border-bottom: 0px !important;
+}
+
+.classactivesignup {
+    border-left: 1px solid orange;
+    border-top: 1px solid orange;
+    border-right: 1px solid orange;
+    border-bottom: 0px !important;
+}
+
+.travellogininputsdiv {
+    display: table;
+    width: 100%;
+}
+
+.loginmaindiv {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#travelshoppeLoginbtn {
+    color: #fff;
+    background: orange;
+    font-family: 'Lato-Regular';
+    font-size: 14px;
+    float: right;
+    /* padding: 10px 10px; */
+    border: 0;
+    cursor: pointer;
+    margin-right: 11px;
+    height: 49px;
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+.btnsignuptravelshoppes, .btnlog {
+    color: #fff;
+    background: orange;
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    float: right;
+    border: 0;
+    cursor: pointer;
+    height: 49px;
+    width: 100%;
+    margin-top: 15px;
+    text-align: center !important;
+}
+
+.btnlog {
+    background: #655E5E !important;
+}
+
+.btnloginsection {
+    margin-top: 15px;
+    font-family: 'Lato-Regular';
+}
+
+    .btnloginsection #travelshoppeLoginbtn {
+    }
+
+.loginformright input {
+    line-height: 27px;
+    width: 100%;
+    text-align: left;
+    margin: 8px 0 4px 0;
+    padding: 3px;
+    color: #a7a7a7;
+    padding-left: 11px;
+    font-family: 'Lato-Regular';
+    font-size: 14px;
+}
+
+.ortextdiv {
+    border-radius: 312PX;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background: orange;
+    PADDING: 10PX;
+}
+
+.interestedbtn {
+    background: #009900;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'latobold';
+    text-transform: uppercase;
+    line-height: 28px;
+    margin-left: 15px;
+    padding: 6px 25px;
+    width: auto;
+    height: auto;
+    float: right;
+    cursor: pointer;
+    margin-right: 52px;
+}
+
+/*-------------------- accordion css------------------------*/
+.accordiontravel {
+    /*background-color: #000;*/
+    border: 1px solid #000;
+}
+
+.accordion-header:active {
+background-color:orange;
+}
+
+.accordion-item:last-child .accordion-content {
+    border-bottom: none;
+    border-top: solid 1px #000;
+}
+
+.accordion-item:last-child .accordion-header {
+    border-bottom: none;
+}
+
+.accordion-header {
+    height: 40px;
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+    border-bottom: solid 1px #000;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #fdfdfd;
+    -webkit-tap-highlight-color: transparent;
+    transition: background .2s linear;
+}
+
+.accordion-item.active .accordion-header {
+    background-color: orange;
+        border: none;
+}
+
+    .accordion-header:hover, .accordion-item.active .accordion-header {
+        /*background-color: #022f65;*/
+        /*color: #fff;*/
+    }
+
+        .accordion-item.active .accordion-header .accordion-item-arrow:before {
+            -ms-transform: rotate(180deg);
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+            background-color: orange;
+        }
+
+    .accordion-header .accordion-item-arrow:before {
+        content: "\f107";
+        font-family: FontAwesome;
+        float: left;
+        font-size: 18px;
+        transition: all .2s linear;
+        margin-right: 10px;
+    }
+
+.accordion-content {
+    padding: 15px;
+    display: none;
+    border-bottom: solid 1px #000;
+    font-size: 14px;
+    color: #000;
+}
+
+.btn-faq-def {
+    padding: 9px 13px;
+    border-left: 0px solid #fff;
+    border-color: #e5e5e5;
+}
+
+    .btn-faq-def:hover, .btn-faq-def:focus {
+        background: none;
+        border-color: #e5e5e5;
+        border-left: 0px solid #fff;
+    }
+
+.form-control-faq:hover, .form-control-faq:focus {
+    border-color: #e5e5e5;
+}
+
+.faq-row label {
+    line-height: 30px;
+}
+
+.faq-row > div[class*=col-] {
+    margin-bottom: 10px;
+}
+
+.input-group-faq {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+.date-evt, .venuue {
+    color: #1e71a6;
+}
+
+.innrpg-cot-con-ent p {
+    margin-bottom: 5px;
+}
+.tblfaqtabsactive {
+background-color:orange;
+}
+/*-------------------- accordion css------------------------*/
